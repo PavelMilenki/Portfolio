@@ -1,0 +1,41 @@
+.contacts {
+    min-height: 500px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.btnSubmit {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border: none;
+}
+
+.messageArea {
+    min-height: 160px;
+}
+
+@media screen and (max-width: 626px) {
+    .formWrapper {
+        width: 100%;
+    }
+}

@@ -1,0 +1,54 @@
+.projects {
+    min-height: 100vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+
+}
+
+.projectsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project {
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImg {
+    height: 300px;
+    background-color: #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnShow {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1252px){
+    .projectsWrapper {
+        justify-content: center;
+    }
+}

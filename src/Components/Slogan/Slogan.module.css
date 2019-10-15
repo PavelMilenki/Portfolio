@@ -1,0 +1,16 @@
+.slogan{
+    height: 250px;
+    background-color: #20232a;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
