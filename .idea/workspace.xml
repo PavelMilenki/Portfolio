@@ -1,38 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09861fd2-513b-4942-ba21-780e83463077" name="Default Changelist" comment="" />
+    <list default="true" id="09861fd2-513b-4942-ba21-780e83463077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Contacts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Facebook_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Github_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Google.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/React.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Telegram_Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/facebook_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/github-icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/html5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/redux.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/todoTest.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Button/Button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Button/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/React.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/React2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/React3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slogan/Slogan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slogan/Slogan.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Title/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Title/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Title/Title.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Title/Title.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Portfolio" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QfAluy8B3u5Zs81tId6uV8QQLd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Button" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Footer" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\IT-Incubator\React\Portfolio\src\Components\Footer" />
       <recent name="C:\IT-Incubator\Portfolio\src\Components\Button" />
       <recent name="C:\IT-Incubator\Portfolio\src\Components\Title" />
       <recent name="C:\IT-Incubator\Portfolio\src\Components\Header\NavBar" />
       <recent name="C:\IT-Incubator\Portfolio\src\Components\Footer" />
-      <recent name="C:\IT-Incubator\Portfolio\src\Components\Contacts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -103,10 +164,35 @@
       <workItem from="1569539630651" duration="266000" />
       <workItem from="1571045627588" duration="18804000" />
       <workItem from="1571128548881" duration="2284000" />
+      <workItem from="1571134347261" duration="614000" />
+      <workItem from="1571135044153" duration="1656000" />
+      <workItem from="1571137432700" duration="821000" />
+      <workItem from="1571220879712" duration="1910000" />
+      <workItem from="1571225891588" duration="376000" />
+      <workItem from="1571246340963" duration="271000" />
+      <workItem from="1572864298369" duration="2662000" />
+      <workItem from="1573218568430" duration="6290000" />
+      <workItem from="1573300130884" duration="22804000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -1,39 +1,48 @@
 import React from 'react';
 import s from './Footer.module.css'
 import Title from "../Title/Title";
+import fLogo from "../Images/facebook_icon2.png"
+import gLogo from "../Images/github-icon2.png"
+import tLogo from "../Images/Telegram_Logo.png"
+import Contacts from "./Contacts";
 
-function Footer() {
+
+export const Footer = () => {
+
+    const contacts = [
+        {
+            id: 1,
+            title: 'facebook',
+            img: fLogo,
+            link: 'https://www.facebook.com/pavel.milenki'
+        },
+        {
+            id: 2,
+            title: 'Telegram',
+            img: tLogo,
+            link: 'https://t.me/Pavel_Milenki'
+        },
+        {
+            id: 3,
+            title: 'Github',
+            img: gLogo,
+            link: 'https://github.com/Anekens'
+        }
+    ];
+
     return (
         <div className={s.footer}>
             <div className={s.container}>
                 <Title title={'Pavel Milenki'}/>
                 <div className={s.socialBlock}>
-                    <div className={s.socialIcon}>
-                        <a href="https://www.facebook.com"  target="_blank">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/1200px-Facebook_F_icon.svg.png"
-                                alt=""/>
-                        </a>
-                    </div>
-                    <div className={s.socialIcon}>
-                        <a href="https://www.te.com" target="_blank">
-                            <img
-                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/1200px-Telegram_2019_Logo.svg.png"
-                                alt=""/>
-                        </a>
-                    </div>
-                    <div className={s.socialIcon}>
-                        <a href="https://github.com/" target="_blank">
-                            <img
-                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJfOOzQWkMtBSnU0pB0qolQn4iCiz1ZYTSKp2qCKEQj85_ZImM"
-                                alt=""/>
-                        </a>
-                    </div>
+                    {contacts.map(c => {
+                        return <Contacts key={c.id} title={c.title} img={c.img} link={c.link}/>
+                    })}
                 </div>
-                <span>@2019 Все права защищены </span>
+                <span className={s.access}>@2019 Pavel Milenki </span>
             </div>
         </div>
     );
-}
+};
 
 export default Footer;

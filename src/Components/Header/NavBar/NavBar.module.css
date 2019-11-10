@@ -1,12 +1,28 @@
-.navBar {
+.nav {
     width: 360px;
     display: flex;
     justify-content: space-between;
+
 }
 
-.link {
+.item a {
     text-decoration: none;
-    color: #ffffff;
+    color: white;
     font-size: 20px;
+}
+
+.activeLink:hover:not(:active) {
+    color: #05ffca;
+    border-bottom: 2px solid #05ffca;
+}
+
+.activeLink:active {
+    color: #282c34;
+}
+
+@media screen and (max-width: 600px) {
+    .item a {
+        font-size: 14px;
+    }
 
 }

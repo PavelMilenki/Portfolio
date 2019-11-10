@@ -1,38 +1,68 @@
 import React from 'react';
 import s from './Skills.module.css'
 import Title from "../Title/Title";
+import Skill from "./Skill";
+import css from "../Images/css.png"
+import js from "../Images/js.png"
+import react from "../Images/React.png"
+import redux from "../Images/redux.png"
+import google from "../Images/Google.png"
+import html from "../Images/html5.png"
 
-function Skills() {
+export const Skills = () =>  {
+
+    const skills = [
+        {
+            id: 1,
+            icon: html,
+            title: 'HTML5',
+            description: 'Some description'
+        },
+        {
+            id: 2,
+            icon: css,
+            title: 'CSS3',
+            description: 'Some description'
+        },
+        {
+            id: 3,
+            icon: js,
+            title: 'JavaScript',
+            description: 'Some description'
+        },
+        {
+            id: 4,
+            icon: react,
+            title: 'React',
+            description: 'Some description'
+        },
+        {
+            id: 5,
+            icon: redux,
+            title: 'Redux',
+            description: 'Some description'
+        },
+        {
+            id: 6,
+            icon: google,
+            title: 'Google',
+            description: 'Some description'
+        }
+    ];
+
     return (
-        <div className={s.skills}>
+        <div className={s.skills} id={'skills'}>
             <div className={s.container}>
-                <Title title={'Мои скилы'}/>
+                <Title title={'my skills'}/>
                 <div className={s.skillsWrapper}>
-                    <div className={s.skill}>
-                        <div className={s.icon}>
-                            <img src="https://miro.medium.com/max/792/1*lJ32Bl-lHWmNMUSiSq17gQ.png" alt=""/>
-                        </div>
-                        <span className={s.skillTitle}>HTML&CSS</span>
-                        <span className={s.description}>Описание. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                    </div>
-                    <div className={s.skill}>
-                        <div className={s.icon}>
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt=""/>
-                        </div>
-                        <span className={s.skillTitle}>JS</span>
-                        <span className={s.description}>Описание. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                    </div>
-                    <div className={s.skill}>
-                        <div className={s.icon}>
-                            <img src="https://cdn.auth0.com/blog/react-js/react.png" alt=""/>
-                        </div>
-                        <span className={s.skillTitle}>React</span>
-                        <span className={s.description}>Описание. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                    </div>
+                    {skills.map(skill => {
+                        return <Skill key={skill.id} icon={skill.icon} title={skill.title}
+                                          description={skill.description} />
+                    })}
                 </div>
             </div>
         </div>
     );
-}
+};
 
 export default Skills;

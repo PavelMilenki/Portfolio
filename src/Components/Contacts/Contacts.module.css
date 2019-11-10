@@ -1,6 +1,6 @@
 .contacts {
     min-height: 500px;
-    background-color: #282c34;
+    background-color: #20232a;
     display: flex;
     justify-content: center;
 }
@@ -11,27 +11,62 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 50px 0;
+    margin: 0 auto;
 }
 
 .formWrapper {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 50%;
+    margin-top: 15px;
+}
+
+.messageArea {
+    min-height: 160px;
+    padding: 10px;
+}
+
+.formArea {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 10px;
+}
+
+.formArea, .messageArea {
+    background: #282c34;
+    border: 1px solid #61dafb;
+    font-size: 12px;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    margin-bottom: 1rem;
 }
 
 .btnSubmit {
     width: 150px;
-    height: 50px;
-    background-color: #fff;
+    height: 40px;
+    padding: 0;
+    margin: 10px 0 0;
+    background-color: #282c34;
+    color: #61dafb;
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
     border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    outline: none;
 }
-
-.messageArea {
-    min-height: 160px;
+.btnSubmit:hover{
+    color: white;
+    text-decoration: none;
+    background-color: #61dafb;
 }
 
 @media screen and (max-width: 626px) {
