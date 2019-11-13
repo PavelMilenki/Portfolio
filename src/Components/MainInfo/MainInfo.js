@@ -2,7 +2,7 @@ import React from 'react';
 import s from './MainInfo.module.css'
 import avatar from '../Images/avatar.png'
 
-    export const MainInfo = () => {
+export const MainInfo = () => {
     return (
         <div className={s.main}>
             <div className={s.container}>

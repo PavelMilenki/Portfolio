@@ -4,6 +4,7 @@ import Title from "../Title/Title";
 import fLogo from "../Images/facebook_icon2.png"
 import gLogo from "../Images/github-icon2.png"
 import tLogo from "../Images/Telegram_Logo.png"
+import jLogo from "../Images/tut.png"
 import Contacts from "./Contacts";
 
 
@@ -27,6 +28,12 @@ export const Footer = () => {
             title: 'Github',
             img: gLogo,
             link: 'https://github.com/Anekens'
+        },
+        {
+            id: 4,
+            title: 'JobsTutBy',
+            img: jLogo,
+            link: 'https://jobs.tut.by/'
         }
     ];
 

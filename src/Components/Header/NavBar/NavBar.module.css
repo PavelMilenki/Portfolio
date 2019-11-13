@@ -1,8 +1,7 @@
 .nav {
-    width: 360px;
+    width: 420px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .item a {
@@ -14,6 +13,7 @@
 .activeLink:hover:not(:active) {
     color: #05ffca;
     border-bottom: 2px solid #05ffca;
+    transition: .3s;
 }
 
 .activeLink:active {
@@ -23,6 +23,5 @@
 @media screen and (max-width: 600px) {
     .item a {
         font-size: 14px;
-    }
-
+         }
 }

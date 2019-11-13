@@ -25,6 +25,7 @@
 .messageArea {
     min-height: 160px;
     padding: 10px;
+    resize: none;
 }
 
 .formArea {
@@ -42,6 +43,8 @@
     color: #ffffff;
     margin-bottom: 1rem;
 }
+
+
 
 .btnSubmit {
     width: 150px;
@@ -67,6 +70,7 @@
     color: white;
     text-decoration: none;
     background-color: #61dafb;
+    transition: .6s;
 }
 
 @media screen and (max-width: 626px) {
