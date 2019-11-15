@@ -1,10 +1,10 @@
 import React from 'react';
 import s from './Footer.module.css'
 import Title from "../Title/Title";
-import fLogo from "../Images/facebook_icon2.png"
-import gLogo from "../Images/github-icon2.png"
-import tLogo from "../Images/Telegram_Logo.png"
-import jLogo from "../Images/tut.png"
+import facebookLogo from "../Images/facebookLogo.png"
+import githubLogo from "../Images/githubLogo.png"
+import telegramLogo from "../Images/telegramLogo.png"
+import jobsTutLogo from "../Images/jobsTutLogo.png"
 import Contacts from "./Contacts";
 
 
@@ -14,25 +14,25 @@ export const Footer = () => {
         {
             id: 1,
             title: 'facebook',
-            img: fLogo,
+            img: facebookLogo,
             link: 'https://www.facebook.com/pavel.milenki'
         },
         {
             id: 2,
             title: 'Telegram',
-            img: tLogo,
+            img: telegramLogo,
             link: 'https://t.me/Pavel_Milenki'
         },
         {
             id: 3,
             title: 'Github',
-            img: gLogo,
+            img: githubLogo,
             link: 'https://github.com/Anekens'
         },
         {
             id: 4,
             title: 'JobsTutBy',
-            img: jLogo,
+            img: jobsTutLogo,
             link: 'https://jobs.tut.by/'
         }
     ];
