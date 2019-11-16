@@ -26,7 +26,7 @@ export const NavBar = () => {
         },
         {
             id: 4,
-            title: 'Contacts',
+            title: 'Contact me',
             link: '#contacts',
             target: ''
         },
