@@ -1,4 +1,5 @@
 .footer {
+    position: relative;
     height: 215px;
     background-color: #282c34;
     display: flex;
@@ -44,7 +45,7 @@
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    transition: .2s;
+    transition: .4s;
 }
 
 .access {

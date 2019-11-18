@@ -9,38 +9,28 @@ export const NavBar = () => {
         {
             id: 1,
             title: 'Main',
-            link: '#',
-            target: ''
+            link: 'main'
         },
         {
             id: 2,
             title: 'Skills',
-            link: '#skills',
-            target: ''
+            link: 'skills'
         },
         {
             id: 3,
             title: 'My works',
-            link: '#works',
-            target: ''
+            link: 'works'
         },
         {
             id: 4,
             title: 'Contact me',
-            link: '#contacts',
-            target: ''
-        },
-        {
-            id: 4,
-            title: 'Resume',
-            link: 'https://jobs.tut.by/',
-            target: '_blank'
+            link: 'contactMe'
         }
     ];
     return (
         <div className={s.nav}>
             {links.map(p => {
-                return <NavLinks key={p.id} title={p.title} link={p.link} target={p.target}/>
+                return <NavLinks key={p.id} title={p.title} link={p.link}/>
             })}
         </div>
     );

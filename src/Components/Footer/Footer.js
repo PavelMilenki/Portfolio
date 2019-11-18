@@ -7,6 +7,7 @@ import telegramLogo from "../Images/telegramLogo.png"
 import jobsTutLogo from "../Images/jobsTutLogo.png"
 import linkedinLogo from "../Images/linkedInLogo.png"
 import Contacts from "./Contacts";
+import Fade from "react-reveal/Fade";
 
 
 export const Footer = () => {
@@ -46,15 +47,17 @@ export const Footer = () => {
 
     return (
         <div className={s.footer}>
-            <div className={s.container}>
-                <Title title={'Pavel Milenki'}/>
-                <div className={s.socialBlock}>
-                    {contacts.map(c => {
-                        return <Contacts key={c.id} title={c.title} img={c.img} link={c.link}/>
-                    })}
+            <Fade bottom>
+                <div className={s.container}>
+                    <Title title={'Pavel Milenki'}/>
+                    <div className={s.socialBlock}>
+                        {contacts.map(c => {
+                            return <Contacts key={c.id} title={c.title} img={c.img} link={c.link}/>
+                        })}
+                    </div>
+                    <span className={s.access}>@2019 All Rights Reserved</span>
                 </div>
-                <span className={s.access}>@2019 All Rights Reserved</span>
-            </div>
+            </Fade>
         </div>
     );
 };

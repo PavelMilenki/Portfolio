@@ -6,61 +6,64 @@ import cssLogo from "../Images/cssLogo.png"
 import jsLogo from "../Images/jsLogo.png"
 import reactLogo from "../Images/reactLogo.png"
 import reduxLogo from "../Images/reduxLogo.png"
-import googleLogo from "../Images/googleLogo.png"
+import gitLogo from "../Images/gitLogo.png"
 import html5Logo from "../Images/html5Logo.png"
+import Fade from 'react-reveal/Fade';
 
-export const Skills = () =>  {
+export const Skills = () => {
 
     const skills = [
         {
             id: 1,
             icon: html5Logo,
             title: 'HTML5',
-            description: 'Some description'
+            description: 'Develop  HTML5 that meets accessibility and web browser standards for website.'
         },
         {
             id: 2,
             icon: cssLogo,
             title: 'CSS3',
-            description: 'Some description'
+            description: 'Used SASS, CSS Modules and library Classnames'
         },
         {
             id: 3,
             icon: jsLogo,
             title: 'JavaScript',
-            description: 'Some description'
+            description: ' Used ES6+, events, closures, prototype'
         },
         {
             id: 4,
             icon: reactLogo,
             title: 'React',
-            description: 'Some description'
+            description: 'Experience in using React JS components, Forms, Events, Keys, Router, plus Redux, Animations and Flux concept'
         },
         {
             id: 5,
             icon: reduxLogo,
             title: 'Redux',
-            description: 'Some description'
+            description: 'Created and used Reducers that received said Actions to modify the Store State. Used Middleware, Redux-Promise'
         },
         {
             id: 6,
-            icon: googleLogo,
-            title: 'Google',
-            description: 'Some description'
+            icon: gitLogo,
+            title: 'Git',
+            description: 'Experience in using GIT for pulling and committing the developed content from/to the GIT repository'
         }
     ];
 
     return (
         <div className={s.skills} id={'skills'}>
-            <div className={s.container}>
-                <Title title={'my skills'}/>
-                <div className={s.skillsWrapper}>
-                    {skills.map(skill => {
-                        return <Skill key={skill.id} icon={skill.icon} title={skill.title}
-                                          description={skill.description} />
-                    })}
+            <Fade bottom>
+                <div className={s.container}>
+                    <Title title={'my skills'}/>
+                    <div className={s.skillsWrapper}>
+                        {skills.map(skill => {
+                            return <Skill key={skill.id} icon={skill.icon} title={skill.title}
+                                          description={skill.description}/>
+                        })}
+                    </div>
                 </div>
-            </div>
+            </Fade>
         </div>
     );
 };

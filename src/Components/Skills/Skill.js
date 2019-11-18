@@ -7,8 +7,10 @@ export const Skill = (props) =>  {
             <div className={s.icon}>
                 <img src={props.icon} alt={props.title}/>
             </div>
+            <div>
             <h3 className={s.skillTitle}>{props.title}</h3>
-            <span className={s.description}>{props.description}</span>
+            <div className={s.description}>{props.description}</div>
+            </div>
         </div>
     );
 };

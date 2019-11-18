@@ -1,10 +1,11 @@
 import React from 'react';
 import s from './MainInfo.module.css'
-import avatar from '../Images/avatar.png'
+import avatar from '../Images/DSC_00053.png'
+
 
 export const MainInfo = () => {
     return (
-        <div className={s.main}>
+        <div className={s.main} id={'main'}>
             <div className={s.container}>
                 <div className={s.greeting}>
                     <span>Hi There</span>
@@ -12,10 +13,7 @@ export const MainInfo = () => {
                     <h1>I am a Front-end Developer</h1>
                 </div>
                 <div className={s.photo}>
-                    <div className={s.img}>
-                        <img src={avatar} alt="Avatar"/>
-                    </div>
-                    <span></span>
+                    <div className={s.img}><img src={avatar} alt="Avatar"/></div>
                 </div>
             </div>
         </div>
@@ -23,3 +21,6 @@ export const MainInfo = () => {
 };
 
 export default MainInfo;
+
+
+

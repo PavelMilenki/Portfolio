@@ -1,4 +1,5 @@
 .contacts {
+    position: relative;
     min-height: 500px;
     background-color: #20232a;
     display: flex;
@@ -35,7 +36,7 @@
 
 .formArea, .messageArea {
     background: #282c34;
-    border: 1px solid #61dafb;
+    border: none;
     font-size: 12px;
     outline: none;
     font-weight: 400;
@@ -44,15 +45,16 @@
     margin-bottom: 1rem;
 }
 
-
+.formArea:focus, .messageArea:focus {
+    border: 2px solid #61dafb;
+    transition: .4s;
+}
 
 .btnSubmit {
-    width: 150px;
-    height: 40px;
-    padding: 0;
+    padding: 10px 40px;
     margin: 10px 0 0;
     background-color: #282c34;
-    color: #61dafb;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,15 +64,16 @@
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    line-height: 1.2;
+    line-height: 1;
     letter-spacing: 5px;
     outline: none;
 }
-.btnSubmit:hover{
-    color: white;
+
+.btnSubmit:hover {
     text-decoration: none;
     background-color: #61dafb;
-    transition: .6s;
+    transition: .4s;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 626px) {

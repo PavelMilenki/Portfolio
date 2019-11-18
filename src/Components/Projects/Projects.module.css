@@ -1,4 +1,5 @@
 .projects {
+    position: relative;
     min-height: 100vh;
     background-color: #282c34;
     display: flex;
@@ -18,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     width: 100%;
     margin-top: 15px;
 }
@@ -41,36 +41,15 @@
     height: 250px;
 }
 
-.projectImg:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 250px;
-    background: black;
-    opacity: 0.3;
+.projectImg:hover .btnShow {
+    opacity: 1;
 }
 
-.projectTitle {
-    text-align: center;
-    padding-top: 12px;
-    font-weight: 700;
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    line-height: 1.2;
-    letter-spacing: 5px;
-    margin: 5px;
+.projectImg:hover .workScreen {
+    filter: blur(3px);
+    transition: .4s;
 }
 
-.description {
-    padding: 3px 5px;
-    font-size: 16px;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.2;
-    margin: 0 20px 20px;
-}
 
 .workScreen {
     width: 100%;
@@ -87,24 +66,59 @@
     transition: all .3s ease;
     width: 100px;
     height: 36px;
-    border-radius: 3px;
+    border: none;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 36px;
     vertical-align: center;
+    background-color: #20232a;
+    letter-spacing: 5px;
+}
+
+.btnShow.watch {
+    top: 30%;
+}
+
+.btnShow.code {
+    top: 70%;
 }
 
 .btnShow:hover {
-    background-color: #20232a;
+    background-color: #05ffca;
     cursor: pointer;
-    opacity: .8;
+    transition: .4s;
 }
 
 a {
     text-decoration: none;
     color: #fff;
 }
+
+.projectTitle {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    margin: 5px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3px 5px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2;
+    margin: 0 20px 20px;
+}
+
 
 @media screen and (max-width: 1252px) {
     .projectsWrapper {
