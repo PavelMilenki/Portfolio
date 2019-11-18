@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "495027ebafeae4ea643721377b22adc7",
+    "revision": "a020bd486627c9decb48ee37b17842fe",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "e276aff7a596778244c0",
-    "url": "/Portfolio/static/css/main.553e9b29.chunk.css"
+    "revision": "33eb0abb2ff1dee7c4b6",
+    "url": "/Portfolio/static/css/main.9f6382c0.chunk.css"
   },
   {
-    "revision": "37e54381525abf6c14a7",
-    "url": "/Portfolio/static/js/2.3a0ab1df.chunk.js"
+    "revision": "6873b063cdbad50f5693",
+    "url": "/Portfolio/static/js/2.fddb7c46.chunk.js"
   },
   {
-    "revision": "e276aff7a596778244c0",
-    "url": "/Portfolio/static/js/main.84510d10.chunk.js"
+    "revision": "33eb0abb2ff1dee7c4b6",
+    "url": "/Portfolio/static/js/main.f1ee8212.chunk.js"
   },
   {
     "revision": "13c12ee1e289ad549380",
@@ -28,16 +28,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/cssLogo.9fe7584b.png"
   },
   {
+    "revision": "09907ad66a4640da966fb4d5eed2b8cb",
+    "url": "/Portfolio/static/media/facebook-3d-render_122462-2.09907ad6.jpg"
+  },
+  {
     "revision": "6163476d4921dbaf83480bfe4690fb4e",
     "url": "/Portfolio/static/media/facebookLogo.6163476d.png"
   },
   {
-    "revision": "3f42676ea511a50b6f594bed6fe81025",
-    "url": "/Portfolio/static/media/githubLogo.3f42676e.png"
+    "revision": "8df07bef3c647e9907f3b6ca2680b566",
+    "url": "/Portfolio/static/media/gitLogo.8df07bef.png"
   },
   {
-    "revision": "f863aef4d15f1498abe6f2d498cdc987",
-    "url": "/Portfolio/static/media/googleLogo.f863aef4.png"
+    "revision": "3f42676ea511a50b6f594bed6fe81025",
+    "url": "/Portfolio/static/media/githubLogo.3f42676e.png"
   },
   {
     "revision": "2ea01c0e92883b6e481dd2e62f5e6d4e",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79046a553ce2e9ea7fc1992ede20e610",
     "url": "/Portfolio/static/media/jsLogo.79046a55.png"
+  },
+  {
+    "revision": "496888d3510617a483a31398794c2dd4",
+    "url": "/Portfolio/static/media/likes.496888d3.png"
   },
   {
     "revision": "ce3c5449aa5c4331ae669f689123d6f6",
@@ -58,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "62cc7d7a7701fc5c78e8bfdfe1c58ad7",
     "url": "/Portfolio/static/media/reduxLogo.62cc7d7a.png"
+  },
+  {
+    "revision": "47fb91702ac39d8dadc215ff3ae61ebe",
+    "url": "/Portfolio/static/media/sn.47fb9170.jpg"
   },
   {
     "revision": "5f5fad71803664bca134996cacbaaf07",
