@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Anekens.github.io/Portfolio",
+  "homepage": "https://pavelmilenki.github.io/Portfolio/",
   "dependencies": {
     "add": "^2.0.6",
     "react": "^16.9.0",
