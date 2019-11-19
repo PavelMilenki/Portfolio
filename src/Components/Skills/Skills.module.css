@@ -67,6 +67,9 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .skillsWrapper {
+        justify-content: center;
+    }
     .skill {
         width: 500px
     }

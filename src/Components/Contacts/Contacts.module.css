@@ -43,6 +43,8 @@
     line-height: 1.5;
     color: #ffffff;
     margin-bottom: 1rem;
+    box-sizing: border-box;
+    height: 40px;
 }
 
 .formArea:focus, .messageArea:focus {

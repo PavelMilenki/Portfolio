@@ -47,7 +47,7 @@ export const Footer = () => {
 
     return (
         <div className={s.footer}>
-            <Fade bottom>
+            <Fade top>
                 <div className={s.container}>
                     <Title title={'Pavel Milenki'}/>
                     <div className={s.socialBlock}>
