@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7dbd1cfe77b6a08dfd647030a63871bd",
+    "revision": "16ce46d5b75c4048c0f875a1c997d489",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "abeb2c184039717286d4",
+    "revision": "cbc271b2ff72fc7f7c24",
     "url": "/Portfolio/static/css/main.acde30c8.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.5d13be4d.chunk.js"
   },
   {
-    "revision": "abeb2c184039717286d4",
-    "url": "/Portfolio/static/js/main.b3c1e951.chunk.js"
+    "revision": "cbc271b2ff72fc7f7c24",
+    "url": "/Portfolio/static/js/main.75d8444b.chunk.js"
   },
   {
     "revision": "c5163b75163a0315defc",
@@ -21,15 +21,23 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "35bce7cb3f0551f1e3b9ebdb212dc34a",
-    "url": "/Portfolio/static/media/DSC_00053.35bce7cb.png"
+    "url": "/Portfolio/static/media/Avatar.35bce7cb.png"
+  },
+  {
+    "revision": "0943a99684f3f79e16d43ee7ac91ae0f",
+    "url": "/Portfolio/static/media/Todolist.0943a996.png"
+  },
+  {
+    "revision": "1a1e2345c39d315864abb8fc308f8dde",
+    "url": "/Portfolio/static/media/booksStore.1a1e2345.png"
+  },
+  {
+    "revision": "a5d9b23442d055cf4dfa1591cb0c1a89",
+    "url": "/Portfolio/static/media/counter.a5d9b234.png"
   },
   {
     "revision": "9fe7584b6d29bec74a66024829929697",
     "url": "/Portfolio/static/media/cssLogo.9fe7584b.png"
-  },
-  {
-    "revision": "09907ad66a4640da966fb4d5eed2b8cb",
-    "url": "/Portfolio/static/media/facebook-3d-render_122462-2.09907ad6.jpg"
   },
   {
     "revision": "6163476d4921dbaf83480bfe4690fb4e",
@@ -52,10 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/jsLogo.79046a55.png"
   },
   {
-    "revision": "496888d3510617a483a31398794c2dd4",
-    "url": "/Portfolio/static/media/likes.496888d3.png"
-  },
-  {
     "revision": "ce3c5449aa5c4331ae669f689123d6f6",
     "url": "/Portfolio/static/media/linkedInLogo.ce3c5449.png"
   },
@@ -74,9 +78,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5f5fad71803664bca134996cacbaaf07",
     "url": "/Portfolio/static/media/telegramLogo.5f5fad71.png"
-  },
-  {
-    "revision": "027d4d255cbfaaea64087995e28d8061",
-    "url": "/Portfolio/static/media/todoTest.027d4d25.jpg"
   }
 ]);
