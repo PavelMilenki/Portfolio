@@ -35,7 +35,7 @@ export const Footer = () => {
             id: 4,
             title: 'Github',
             img: githubLogo,
-            link: 'https://github.com/Anekens'
+            link: 'https://github.com/PavelMilenki'
         },
         {
             id: 5,

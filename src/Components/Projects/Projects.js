@@ -2,10 +2,10 @@ import React from 'react';
 import s from './Projects.module.css'
 import Title from "../Title/Title";
 import {Project} from "./Project";
-import testImg from "../Images/todoTest.jpg"
 import sn from "../Images/sn.jpg"
-import testImg2 from "../Images/likes.png"
-import testImg3 from "../Images/facebook-3d-render_122462-2.jpg"
+import todolist from "../Images/Todolist.png"
+import booksStore from "../Images/booksStore.png"
+import counter from "../Images/counter.png"
 import Fade from "react-reveal/Fade";
 
 
@@ -16,37 +16,37 @@ export const Projects = () => {
             id: 1,
             title: 'Social Network',
             img: sn,
-            link: 'https://anekens.github.io/social-network/#/profile',
-            githubCode: 'https://github.com/Anekens/social-network',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                'Ducimus, enim. Lorem ipsum dolor sit amet,'
+            link: 'https://pavelmilenki.github.io/SocialNetwork/',
+            githubCode: 'https://github.com/PavelMilenki/SocialNetwork',
+            description: 'A project of a Social Network, that used  stack: React, Redux, ' +
+                'React-Redux, Hooks, Redux-Thunk, Axios, React-Router-Dom, Redux-Form, Reselect'
         },
         {
             id: 2,
-            title: 'ToDo List',
-            img: testImg,
-            link: 'https://anekens.github.io/social-network/#/profile',
-            githubCode: 'https://github.com/Anekens/social-network',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                'Ducimus, enim. Lorem ipsum dolor sit amet,'
+            title: 'Books store',
+            img: booksStore,
+            link: 'https://pavelmilenki.github.io/BooksStore/',
+            githubCode: 'https://github.com/PavelMilenki/BooksStore',
+            description: 'A project of an online bookstore, that used  stack: React, React-Redux,' +
+                ' Redux, Redux-Thunk, Axios, Lodash'
         },
         {
             id: 3,
-            title: 'Some 1',
-            img: testImg2,
-            link: 'https://anekens.github.io/social-network/#/profile',
-            githubCode: 'https://github.com/Anekens/social-network',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                'Ducimus, enim. Lorem ipsum dolor sit amet,'
+            title: 'To Do List',
+            img: todolist,
+            link: 'https://pavelmilenki.github.io/ToDoList/',
+            githubCode: 'https://github.com/PavelMilenki/ToDoList',
+            description: 'A project of a to do list app, that used  stack: React, Redux, ' +
+                'React-Redux, Hooks, Redux-Thunk, Axios'
         },
         {
             id: 4,
-            title: 'Some 2',
-            img: testImg3,
-            link: 'https://anekens.github.io/social-network/#/profile',
-            githubCode: 'https://github.com/Anekens/social-network',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
-                'Ducimus, enim. Lorem ipsum dolor sit amet,'
+            title: 'Counter',
+            img: counter,
+            link: 'https://pavelmilenki.github.io/CounterWithRedux/',
+            githubCode: 'https://github.com/PavelMilenki/CounterWithRedux',
+            description: 'A project of a counter, that used  stack: React, Redux, ' +
+                'React-Redux, Hooks'
         }
     ];
 

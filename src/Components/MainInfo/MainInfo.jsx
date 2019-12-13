@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './MainInfo.module.css'
-import avatar from '../Images/DSC_00053.png'
+import avatar from '../Images/Avatar.png'
 
 
 export const MainInfo = () => {
