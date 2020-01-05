@@ -39,7 +39,9 @@
     align-items: center;
     position: relative;
     height: 250px;
+
 }
+
 
 .projectImg:hover .btnShow {
     opacity: 1;

@@ -2,13 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09861fd2-513b-4942-ba21-780e83463077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/BooksStore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Images/Todolist.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Form.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/Todolist.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/counter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/facebook-3d-render_122462-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/facebookLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/facebookLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/githubLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/githubLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/jobsTutLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/jobsTutLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/likes.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/linkedInLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/linkedInLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/sn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/telegramLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Images/telegramLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Images/todoTest.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +192,8 @@
       <workItem from="1576248787985" duration="343000" />
       <workItem from="1576346956208" duration="276000" />
       <workItem from="1578135698736" duration="1062000" />
-      <workItem from="1578224011757" duration="3965000" />
+      <workItem from="1578224011757" duration="6973000" />
+      <workItem from="1578232544036" duration="2509000" />
     </task>
     <servers />
   </component>
@@ -208,25 +224,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1578224834882" />
-    <state width="1537" height="143" key="GridCell.Tab.0.bottom" timestamp="1578225124150">
+    <state width="1509" height="135" key="GridCell.Tab.0.bottom" timestamp="1578235055527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578225124150" />
-    <state width="1537" height="143" key="GridCell.Tab.0.center" timestamp="1578225124149">
+    <state width="1509" height="135" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578235055527" />
+    <state width="1509" height="135" key="GridCell.Tab.0.center" timestamp="1578235055526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="143" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578225124149" />
-    <state width="1537" height="143" key="GridCell.Tab.0.left" timestamp="1578225124149">
+    <state width="1509" height="135" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578235055526" />
+    <state width="1509" height="135" key="GridCell.Tab.0.left" timestamp="1578235055526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="143" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578225124149" />
-    <state width="1537" height="143" key="GridCell.Tab.0.right" timestamp="1578225124150">
+    <state width="1509" height="135" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578235055526" />
+    <state width="1509" height="135" key="GridCell.Tab.0.right" timestamp="1578235055526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="143" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578225124150" />
+    <state width="1509" height="135" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578235055526" />
   </component>
 </project>

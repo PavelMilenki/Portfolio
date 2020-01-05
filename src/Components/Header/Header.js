@@ -20,7 +20,12 @@ export const Header = () => {
         <div className={s.header}>
             <div className={s.container}>
                 {editMode && <NavBar/>}
-                <Slider color='#fff' active={editMode} onClick={changeEditMode}/>
+                <Slider color='#fff'
+                        active={editMode}
+                        onClick={changeEditMode}
+                        lineSpacing={5}
+                        lineHeight={3}
+                        width={30}/>
             </div>
         </div>
     );

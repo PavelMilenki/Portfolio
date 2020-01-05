@@ -15,7 +15,7 @@ class ContactForm extends Component {
         const message = document.getElementById('message').value;
         axios({
             method: "POST",
-            url: "http://localhost:3002/send",
+            url: "https://agile-caverns-78194.herokuapp.com/send",
             data: {
                 name: name,
                 email: email,
