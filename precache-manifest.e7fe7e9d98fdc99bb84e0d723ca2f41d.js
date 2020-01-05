@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d889df9c6dea06133875a50a0d60f89",
+    "revision": "7e847e7086a8fd1417bb06c78c24cb8a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "0a9271b03e3d2f54ac09",
+    "revision": "6ba2ed76029b1ab4459b",
     "url": "/Portfolio/static/css/main.70b29ad2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.2e62f011.chunk.js"
   },
   {
-    "revision": "0a9271b03e3d2f54ac09",
-    "url": "/Portfolio/static/js/main.fca4bf48.chunk.js"
+    "revision": "6ba2ed76029b1ab4459b",
+    "url": "/Portfolio/static/js/main.f3abeb5c.chunk.js"
   },
   {
     "revision": "c5163b75163a0315defc",
@@ -24,12 +24,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/Avatar.f1dfbc85.jpg"
   },
   {
-    "revision": "905426f93e961f95370f8a181ae2e447",
-    "url": "/Portfolio/static/media/Todolist.905426f9.png"
+    "revision": "abbffe32b9fa9323451c9af4d4c595c1",
+    "url": "/Portfolio/static/media/BooksStore.abbffe32.jpg"
   },
   {
-    "revision": "7359f5cca70774e8de159576321d9cc1",
-    "url": "/Portfolio/static/media/booksStore.7359f5cc.png"
+    "revision": "493ebd2b0d920b0fc74464fa05e4299c",
+    "url": "/Portfolio/static/media/Todolist.493ebd2b.jpg"
   },
   {
     "revision": "89ce1b894c793f41d73dca3ee55b3ca2",
