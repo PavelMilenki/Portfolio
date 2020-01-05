@@ -70,6 +70,7 @@
     .skillsWrapper {
         justify-content: center;
     }
+
     .skill {
         width: 500px
     }
@@ -85,8 +86,13 @@
     .skill {
         width: 100%;
     }
-    .skillTitle{
-        font-size: 26px;
+
+    .skillTitle {
+        font-size: 24px;
+    }
+
+    .description {
+        font-size: 14px;
     }
 }
 
