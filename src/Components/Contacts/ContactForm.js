@@ -57,13 +57,15 @@ class ContactForm extends Component {
                 <input type="text"
                        className={s.formArea}
                        id="name"
-                       placeholder={'Name'}/>
+                       placeholder={'Name'}
+                       required/>
                 <input type="email"
                        className={s.formArea}
                        id="email"
                        aria-describedby="emailHelp"
-                       placeholder={'E-mail'}/>
-                <textarea className={s.messageArea} id="message" placeholder={'Message'}/>
+                       placeholder={'E-mail'}
+                       required/>
+                <textarea className={s.messageArea} id="message" placeholder={'Message'} required/>
                 <button type="submit" className={s.btnSubmit}>Send</button>
             </form>
 
