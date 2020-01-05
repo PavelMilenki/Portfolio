@@ -23,6 +23,27 @@
     margin-top: 15px;
 }
 
+.legend {
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.legendSuccess {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.legendError {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
 .messageArea {
     min-height: 160px;
     padding: 10px;

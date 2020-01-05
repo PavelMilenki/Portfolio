@@ -41,7 +41,7 @@ export const Footer = () => {
             id: 5,
             title: 'JobsTutBy',
             img: jobsTutLogo,
-            link: 'https://jobs.tut.by/'
+            link: 'https://jobs.tut.by/resume/d65f844cff0782a7fb0039ed1f5a53626e5166'
         }
     ];
 

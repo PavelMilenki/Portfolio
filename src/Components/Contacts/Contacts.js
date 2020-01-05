@@ -3,6 +3,7 @@ import s from './Contacts.module.css'
 import Title from "../Title/Title";
 import Form from "./Form";
 import Fade from "react-reveal/Fade";
+import ContactForm from "./ContactForm";
 
 
 export const Contacts = () => {
@@ -11,7 +12,7 @@ export const Contacts = () => {
             <Fade bottom>
                 <div className={s.container}>
                     <Title title={'contact me'}/>
-                    <Form/>
+                    <ContactForm/>
                 </div>
             </Fade>
         </div>
