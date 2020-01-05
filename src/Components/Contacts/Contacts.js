@@ -1,7 +1,6 @@
 import React from 'react';
 import s from './Contacts.module.css'
 import Title from "../Title/Title";
-import Form from "./Form";
 import Fade from "react-reveal/Fade";
 import ContactForm from "./ContactForm";
 
