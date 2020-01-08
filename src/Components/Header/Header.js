@@ -23,7 +23,7 @@ export const Header = () => {
                 <Slider color='#fff'
                         active={editMode}
                         onClick={changeEditMode}
-                        lineSpacing={5}
+                        lineSpacing={6}
                         lineHeight={3}
                         width={30}/>
             </div>

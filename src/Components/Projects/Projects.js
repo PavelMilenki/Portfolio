@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Projects.module.css'
 import Title from "../Title/Title";
 import {Project} from "./Project";
-
+import network from "../Images/network.png"
 import todolist from "../Images/Todolist.jpg"
 import booksStore from "../Images/BooksStore.jpg"
 import counter from "../Images/counter.png"
@@ -15,7 +15,7 @@ export const Projects = () => {
         {
             id: 1,
             title: 'Social Network',
-            img: "",
+            img: network,
             link: 'https://pavelmilenki.github.io/SocialNetwork/',
             githubCode: 'https://github.com/PavelMilenki/SocialNetwork',
             description: 'A project of a Social Network, that used  stack: React, Redux, ' +
