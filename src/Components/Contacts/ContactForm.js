@@ -68,8 +68,6 @@ class ContactForm extends Component {
                 <textarea className={s.messageArea} id="message" placeholder={'Message'} required/>
                 <button type="submit" className={s.btnSubmit}>Send</button>
             </form>
-
-
         )
     }
 }

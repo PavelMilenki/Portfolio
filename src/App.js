@@ -7,7 +7,8 @@ import Projects from "./Components/Projects/Projects";
 import Contacts from "./Components/Contacts/Contacts";
 import Footer from "./Components/Footer/Footer";
 import Particles from 'react-particles-js';
-
+import {Provider} from "react-redux";
+import store from "./redux/store";
 
 export const App = () => {
     const particlesOpt = {
@@ -23,14 +24,16 @@ export const App = () => {
     };
     return (
         <div className={s.app}>
-            <Particles className={s.particles}
-                       params={particlesOpt}/>
-            <Header/>
-            <MainInfo/>
-            <Skills/>
-            <Projects/>
-            <Contacts/>
-            <Footer/>
+            <Provider store={store}>
+                <Particles className={s.particles}
+                           params={particlesOpt}/>
+                <Header/>
+                <MainInfo/>
+                <Skills/>
+                <Projects/>
+                <Contacts/>
+                <Footer/>
+            </Provider>
         </div>
     );
 };
