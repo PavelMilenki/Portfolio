@@ -13,39 +13,31 @@ export const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'Social Network',
+            title: 'Social network',
             img: network,
             link: 'https://pavelmilenki.github.io/SocialNetwork/',
-            githubCode: 'https://github.com/PavelMilenki/SocialNetwork',
-            description: 'A project of a Social Network, that used  stack: React, Redux, ' +
-                'React-Redux, Hooks, Redux-Thunk, Axios, React-Router-Dom, Redux-Form, Reselect'
-        },
+            githubCode: 'https://github.com/PavelMilenki/SocialNetwork'
+                    },
         {
             id: 2,
             title: 'Books store',
             img: booksStore,
             link: 'https://pavelmilenki.github.io/BooksStore/',
-            githubCode: 'https://github.com/PavelMilenki/BooksStore',
-            description: 'A project of an online bookstore, that used  stack: React, React-Redux,' +
-                ' Redux, Redux-Thunk, Axios, Lodash'
+            githubCode: 'https://github.com/PavelMilenki/BooksStore'
         },
         {
             id: 3,
-            title: 'To Do List',
+            title: 'To do list',
             img: todolist,
             link: 'https://pavelmilenki.github.io/ToDoList/',
-            githubCode: 'https://github.com/PavelMilenki/ToDoList',
-            description: 'A project of a to do list app, that used  stack: React, Redux, ' +
-                'React-Redux, Hooks, Redux-Thunk, Axios'
+            githubCode: 'https://github.com/PavelMilenki/ToDoList'
         },
         {
             id: 4,
             title: 'Counter',
             img: counter,
             link: 'https://pavelmilenki.github.io/CounterWithRedux/',
-            githubCode: 'https://github.com/PavelMilenki/CounterWithRedux',
-            description: 'A project of a counter, that used  stack: React, Redux, ' +
-                'React-Redux, Hooks'
+            githubCode: 'https://github.com/PavelMilenki/CounterWithRedux'
         }
     ];
 

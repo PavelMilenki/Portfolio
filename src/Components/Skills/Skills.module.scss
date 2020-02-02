@@ -60,8 +60,8 @@ h2{
   font-weight: 700;
   padding: 0;
   margin: 0 0 15px;
-  line-height: 1.2;
-  letter-spacing: 5px;
+  //line-height: 1.2;
+  //letter-spacing: 5px;
 }
 
 
@@ -72,25 +72,37 @@ h2{
   }
 
   .skill {
-    width: 500px
+    width: 20%
   }
 }
 
 @media screen and (max-width: 630px) {
   .skill {
-    width: 100%;
+    width: 20%;
+  }
+  .skillTitle {
+    font-size: 16px;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .skills{
+    min-height: 420px;
+  }
+
   .skill {
-    width: 100%;
+    width: 20%;
+    height: 80px;
+    margin: 0;
   }
 
   .skillTitle {
-    font-size: 24px;
+    font-size: 12px;
   }
-
+  .icon {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 

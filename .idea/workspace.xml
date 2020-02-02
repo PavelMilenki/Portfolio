@@ -2,60 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09861fd2-513b-4942-ba21-780e83463077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Contacts/button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Images/express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Images/mongodbLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Images/nodeJs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Images/sassLogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Helpers/Images/typescriptIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/ContactForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/ContactFormNew.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Contacts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/NavBar/NavLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/NavBar/NavLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/Avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/Avatar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/Avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/Avatar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/BooksStore.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/BooksStore.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/Todolist.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/Todolist.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/counter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/counter.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/cssLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/cssLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/facebookLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/facebookLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/gitLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/gitLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/githubLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/githubLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/html5Logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/html5Logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/jobsTutLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/jobsTutLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/jsLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/jsLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/linkedInLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/linkedInLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/reactLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/reactLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/reduxLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/reduxLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Images/telegramLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helpers/Images/telegramLogo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainInfo/MainInfo.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contacts/button.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skill.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skill.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Title/Title.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Title/Title.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Projects/Projects.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Projects/Projects.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Skills/Skills.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.predeploy" />
         <item itemvalue="npm.build" />
       </list>
@@ -249,7 +202,7 @@
       <workItem from="1580511465190" duration="3245000" />
       <workItem from="1580515096975" duration="4828000" />
       <workItem from="1580644894141" duration="15974000" />
-      <workItem from="1580674687504" duration="3847000" />
+      <workItem from="1580674687504" duration="5986000" />
     </task>
     <task id="LOCAL-00001" summary="added redux">
       <created>1580438096049</created>
@@ -258,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580438096049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added new styles">
+      <created>1580678825556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580678825556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,13 +243,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="added redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="added redux" />
+    <MESSAGE value="added new styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new styles" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="261" y="0" key="#File_Watchers" timestamp="1580678785055">
+    <state x="261" y="0" key="#File_Watchers" timestamp="1580681478707">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="0" key="#File_Watchers/0.0.1536.824@0.0.1536.824" timestamp="1580678785055" />
+    <state x="261" y="0" key="#File_Watchers/0.0.1536.824@0.0.1536.824" timestamp="1580681478707" />
     <state x="261" y="0" key="#Notifications" timestamp="1580647050103">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -298,38 +259,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="436" y="100" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580426625838" />
-    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1580438094989">
+    <state x="320" y="0" key="CommitChangelistDialog2" timestamp="1580678823436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580438094989" />
+    <state x="320" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1580678823436" />
     <state x="352" y="55" width="831" height="769" key="EditFileWatcherDialog" timestamp="1580674101841">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="352" y="55" width="831" height="769" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1580674101841" />
-    <state width="1537" height="155" key="GridCell.Tab.0.bottom" timestamp="1580677968881">
+    <state width="1509" height="147" key="GridCell.Tab.0.bottom" timestamp="1580682273473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="155" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580677968881" />
-    <state width="1537" height="155" key="GridCell.Tab.0.center" timestamp="1580677968880">
+    <state width="1509" height="147" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580682273473" />
+    <state width="1509" height="147" key="GridCell.Tab.0.center" timestamp="1580682273473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="155" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580677968880" />
-    <state width="1537" height="155" key="GridCell.Tab.0.left" timestamp="1580677968880">
+    <state width="1509" height="147" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1580682273473" />
+    <state width="1509" height="147" key="GridCell.Tab.0.left" timestamp="1580682273472">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="155" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580677968880" />
-    <state width="1537" height="155" key="GridCell.Tab.0.right" timestamp="1580677968880">
+    <state width="1509" height="147" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1580682273472" />
+    <state width="1509" height="147" key="GridCell.Tab.0.right" timestamp="1580682273473">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1509" height="147" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1574781682330" />
-    <state width="1537" height="155" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580677968880" />
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1580438100811">
+    <state width="1509" height="147" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1580682273473" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1580678829727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580438100811" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1580678829727" />
     <state x="341" y="183" key="run.anything.popup" timestamp="1580671724588">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
