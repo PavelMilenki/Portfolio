@@ -1,0 +1,98 @@
+@import '../../index.scss';
+
+.skills {
+  position: relative;
+  min-height: 100vh;
+  background-color: $backgroundColorDark;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+h2{
+    color: $textColorLight;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.skillsWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 20%;
+  width: 150px;
+  height: 150px;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.skillTitle {
+  font-size: 22px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0 0 15px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  .skillsWrapper {
+    justify-content: center;
+  }
+
+  .skill {
+    width: 500px
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .skill {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .skill {
+    width: 100%;
+  }
+
+  .skillTitle {
+    font-size: 24px;
+  }
+
+}
+
+
+
+

@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Skills.module.css'
+import s from './Skills.module.scss'
 
 export const Skill = (props) =>  {
     return (
@@ -8,8 +8,7 @@ export const Skill = (props) =>  {
                 <img src={props.icon} alt={props.title}/>
             </div>
             <div>
-            <h3 className={s.skillTitle}>{props.title}</h3>
-            <div className={s.description}>{props.description}</div>
+            <span className={s.skillTitle}>{props.title}</span>
             </div>
         </div>
     );

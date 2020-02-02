@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import s from './Header.module.css'
+import s from './Header.module.scss'
 import NavBar from "./NavBar/NavBar";
 import {Slider} from 'react-burgers'
 
@@ -20,12 +20,12 @@ export const Header = () => {
         <div className={s.header}>
             <div className={s.container}>
                 {editMode && <NavBar/>}
-                <Slider color='#fff'
+                <Slider color='#8a8a8a'
                         active={editMode}
                         onClick={changeEditMode}
-                        lineSpacing={6}
-                        lineHeight={3}
-                        width={30}/>
+                        lineSpacing={8}
+                        lineHeight={4}
+                        width={40}/>
             </div>
         </div>
     );

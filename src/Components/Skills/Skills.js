@@ -1,13 +1,18 @@
 import React from 'react';
-import s from './Skills.module.css'
-import Title from "../Title/Title";
+import s from './Skills.module.scss'
 import Skill from "./Skill";
-import cssLogo from "../Images/cssLogo.png"
-import jsLogo from "../Images/jsLogo.png"
-import reactLogo from "../Images/reactLogo.png"
-import reduxLogo from "../Images/reduxLogo.png"
-import gitLogo from "../Images/gitLogo.png"
-import html5Logo from "../Images/html5Logo.png"
+import css from "../../Helpers/Images/cssLogo.png"
+import js from "../../Helpers/Images/jsLogo.png"
+import react from "../../Helpers/Images/reactLogo.png"
+import redux from "../../Helpers/Images/reduxLogo.png"
+import git from "../../Helpers/Images/gitLogo.png"
+import html5 from "../../Helpers/Images/html5Logo.png"
+import sass from '../../Helpers/Images/sassLogo.png'
+import typescript from '../../Helpers/Images/typescriptIcon.png'
+import nodejs from '../../Helpers/Images/nodeJs.png'
+import express from '../../Helpers/Images/express.png'
+import mongodb from '../../Helpers/Images/mongodbLogo.png'
+
 import Fade from 'react-reveal/Fade';
 
 export const Skills = () => {
@@ -15,47 +20,67 @@ export const Skills = () => {
     const skills = [
         {
             id: 1,
-            icon: html5Logo,
-            title: 'HTML5',
-            description: 'Develop  HTML5 that meets accessibility and web browser standards for website.'
+            icon: html5,
+            title: 'HTML5'
+
         },
         {
             id: 2,
-            icon: cssLogo,
-            title: 'CSS3',
-            description: 'Used SASS, CSS Modules and library Classnames'
+            icon: css,
+            title: 'CSS3'
         },
         {
             id: 3,
-            icon: jsLogo,
-            title: 'JavaScript',
-            description: ' Used ES6+, events, closures, prototype'
+            icon: sass,
+            title: 'SASS'
         },
         {
             id: 4,
-            icon: reactLogo,
-            title: 'React',
-            description: 'Experience in using React JS components, Forms, Events, Keys, Router, plus Redux, Animations and Flux concept'
+            icon: git,
+            title: 'Git'
         },
         {
             id: 5,
-            icon: reduxLogo,
-            title: 'Redux',
-            description: 'Created and used Reducers that received said Actions to modify the Store State. Used Middleware, Redux-Promise'
+            icon: js,
+            title: 'JavaScript'
         },
         {
             id: 6,
-            icon: gitLogo,
-            title: 'Git',
-            description: 'Experience in using GIT for pulling and committing the developed content from/to the GIT repository'
-        }
+            icon: typescript,
+            title: 'TypeScript'
+        },
+        {
+            id: 7,
+            icon: react,
+            title: 'React.JS'
+        },
+        {
+            id: 8,
+            icon: redux,
+            title: 'Redux'
+        },{
+            id: 9,
+            icon: nodejs,
+            title: 'Node.JS'
+        },
+        {
+            id: 10,
+            icon: express,
+            title: 'Express.JS'
+        },
+        {
+            id: 11,
+            icon: mongodb,
+            title: 'MongoDB'
+        },
+
     ];
 
     return (
         <div className={s.skills} id={'skills'}>
             <Fade bottom>
                 <div className={s.container}>
-                    <Title title={'my skills'}/>
+                  <h2>my stack</h2>
                     <div className={s.skillsWrapper}>
                         {skills.map(skill => {
                             return <Skill key={skill.id} icon={skill.icon} title={skill.title}

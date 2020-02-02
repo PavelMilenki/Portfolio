@@ -1,6 +1,7 @@
 import React from 'react';
-import s from './NavBar.module.css'
+import s from './NavBar.module.scss'
 import NavLinks from "./NavLinks";
+
 
 
 export const NavBar = () => {
@@ -8,22 +9,22 @@ export const NavBar = () => {
     const links = [
         {
             id: 1,
-            title: 'Main',
+            title: 'about',
             link: 'main'
         },
         {
             id: 2,
-            title: 'Skills',
+            title: 'stack',
             link: 'skills'
         },
         {
             id: 3,
-            title: 'My works',
+            title: 'portfolio',
             link: 'works'
         },
         {
             id: 4,
-            title: 'Contact me',
+            title: 'contact',
             link: 'contactMe'
         }
     ];

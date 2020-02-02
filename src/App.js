@@ -5,10 +5,10 @@ import MainInfo from "./Components/MainInfo/MainInfo";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contacts from "./Components/Contacts/Contacts";
-import Footer from "./Components/Footer/Footer";
 import Particles from 'react-particles-js';
 import {Provider} from "react-redux";
 import store from "./redux/store";
+
 
 export const App = () => {
     const particlesOpt = {
@@ -28,11 +28,11 @@ export const App = () => {
                 <Particles className={s.particles}
                            params={particlesOpt}/>
                 <Header/>
-                <MainInfo/>
+                               <MainInfo/>
                 <Skills/>
                 <Projects/>
                 <Contacts/>
-                <Footer/>
+
             </Provider>
         </div>
     );

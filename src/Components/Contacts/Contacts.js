@@ -1,14 +1,17 @@
 import React, {useState} from 'react';
-import s from './Contacts.module.css'
-import Title from "../Title/Title";
+import s from './Contacts.module.scss'
+import {AwesomeButtonSocial} from 'react-awesome-button';
+import AwesomeButtonStyles from 'react-awesome-button/src/styles/styles.scss'
 import Fade from "react-reveal/Fade";
 import {useDispatch, useSelector} from "react-redux";
 import {contactFormSend, messageError, messageLoading} from "../../redux/contactFormReducer";
-import ContactFormNew from "./ContactFormNew";
+import ContactForm from "./ContactForm";
 import {emailValidator} from "../../Helpers/emailValidator";
 
 
+
 export const Contacts = React.memo(() => {
+
     const {loading, error} = useSelector((store) => store.contactForm);
     const dispatch = useDispatch();
     const [name, setName] = useState('');
@@ -42,17 +45,52 @@ export const Contacts = React.memo(() => {
         <div className={s.contacts} id={'contactMe'}>
             <Fade bottom>
                 <div className={s.container}>
-                    <Title title={'contact me'}/>
-                    <ContactFormNew loading={loading}
-                                    name={name}
-                                    email={email}
-                                    message={message}
-                                    setName={setName}
-                                    setEmail={setEmail}
-                                    setMessage={setMessage}
-                                    setNewMessage={setNewMessage}
-                                    disabled={disabled}
-                                    error={error}/>
+                    <div>
+                        <h2>Get in touch</h2>
+                    </div>
+                    <div className={s.description}>
+                        If you wanna get in touch, talk to me about a project or job or just say hi, fill up the
+                        awesome form below or send an email to
+                        <span className={s.email}> p.milenkii@gmail.com</span> and ~let's talk.
+
+                    </div>
+                    <ContactForm loading={loading}
+                                 name={name}
+                                 email={email}
+                                 message={message}
+                                 setName={setName}
+                                 setEmail={setEmail}
+                                 setMessage={setMessage}
+                                 setNewMessage={setNewMessage}
+                                 disabled={disabled}
+                                 error={error}/>
+                    <div className={s.socialTitle}>Let's get social</div>
+                    <div className={s.socialTitle}>
+                        Follow my online page on Facebook and profiles on, GitHub and Linkedin.
+                    </div>
+                    <div className={s.socialBlock}>
+                        <AwesomeButtonSocial
+                            cssModule={AwesomeButtonStyles}
+                            type='facebook'
+                            href='https://www.facebook.com/pavel.milenki'
+                            target='_blank'>
+                            Facebook
+                        </AwesomeButtonSocial>
+                        <AwesomeButtonSocial
+                            cssModule={AwesomeButtonStyles}
+                            type='linkedin'
+                            href='https://www.linkedin.com/in/pavel-milenki-34b969197/'
+                            target='_blank'>
+                            Linkedin
+                        </AwesomeButtonSocial>
+                        <AwesomeButtonSocial
+                            cssModule={AwesomeButtonStyles}
+                            type='github'
+                            href='https://github.com/PavelMilenki'
+                            target='_blank'>
+                            Github
+                        </AwesomeButtonSocial>
+                    </div>
                 </div>
             </Fade>
         </div>

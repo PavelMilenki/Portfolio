@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Projects.module.css'
+import s from './Projects.module.scss'
 
 
 export const Project = (props) => {
@@ -15,9 +15,7 @@ export const Project = (props) => {
                 </div>
             </div>
             <div className={s.projectTitle}>{props.title}</div>
-            <div className={s.description}>
-                {props.description}
-            </div>
+
         </div>
     )
 };

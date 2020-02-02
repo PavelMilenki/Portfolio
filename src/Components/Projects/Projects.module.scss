@@ -1,7 +1,9 @@
+@import '../../index.scss';
+
 .projects {
     position: relative;
     min-height: 100vh;
-    background-color: #282c34;
+    background-color: $backgroundColorLight;
     display: flex;
     justify-content: center;
 }
@@ -14,6 +16,11 @@
     padding: 50px 0;
     margin: 0 auto;
 }
+h2{
+    color: $textColorLight;
+    font-size: 30px;
+    margin: 0 auto;
+}
 
 .projectsWrapper {
     display: flex;
@@ -24,11 +31,11 @@
 }
 
 .project {
-    background-color: #20232a;
+    background-color: $backgroundColorDark;
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 400px;
+    height: 300px;
     margin-bottom: 36px;
     position: relative;
 }
@@ -75,7 +82,7 @@
     font-weight: 700;
     line-height: 36px;
     vertical-align: center;
-    background-color: #20232a;
+    background-color: $backgroundColorDark;
     letter-spacing: 5px;
 }
 
@@ -88,14 +95,14 @@
 }
 
 .btnShow:hover {
-    background-color: #05ffca;
+    background-color: $activeLinkColor;
     cursor: pointer;
     transition: .4s;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: $textColor;
 }
 
 .projectTitle {

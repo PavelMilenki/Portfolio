@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './NavBar.module.css'
+import s from './NavBar.module.scss'
 import {Link} from "react-scroll";
 
 export const NavLinks = (props) => {

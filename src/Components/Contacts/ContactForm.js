@@ -1,75 +1,44 @@
-import React, {Component} from 'react';
-import axios from 'axios';
-import s from './Contacts.module.css'
+import React from 'react';
+import s from './Contacts.module.scss'
 
-class ContactForm extends Component {
-
-    state = {
-        message: "Send your message"
-    };
-
-    handleSubmit(e) {
-        e.preventDefault();
-        const name = document.getElementById('name').value;
-        const email = document.getElementById('email').value;
-        const message = document.getElementById('message').value;
-        axios({
-            method: "POST",
-            url: "https://agile-caverns-78194.herokuapp.com/send",
-            data: {
-                name: name,
-                email: email,
-                message: message
-            }
-        }).then((response) => {
-            if (response.data.msg === 'success') {
-                this.setState({
-                    message: "Message Send"
-                });
-                this.resetForm()
-            } else if (response.data.msg === 'fail') {
-                this.setState({
-                    message: "Message failed to send"
-                });
-            }
-        })
+const ContactForm = React.memo(({
+                                    loading, name, email, message,
+                                    setName, setEmail, setMessage,
+                                    setNewMessage, disabled, error
+                                }) => {
+    let style = {color: '#CA5A12'};
+    if (error === "Message send") {
+        style = {color: 'green'}
     }
 
-    resetForm() {
-        document.getElementById('contact-form').reset();
-    }
-
-    render() {
-
-        let classForLegend = this.state.message === "Send your message" ? s.legend : ""
-        || this.state.message === "Message Send" ? s.legendSuccess : ""
-        || this.state.message === "Message failed to send" ? s.legendError : "";
-
-        return (
-
-            <form id="contact-form"
-                  onSubmit={this.handleSubmit.bind(this)}
-                  method="POST"
-                  className={s.formWrapper}>
-                <legend className={classForLegend}>
-                    {this.state.message}
-                </legend>
-                <input type="text"
-                       className={s.formArea}
-                       id="name"
-                       placeholder={'Name'}
-                       required/>
-                <input type="email"
-                       className={s.formArea}
-                       id="email"
-                       aria-describedby="emailHelp"
-                       placeholder={'E-mail'}
-                       required/>
-                <textarea className={s.messageArea} id="message" placeholder={'Message'} required/>
-                <button type="submit" className={s.btnSubmit}>Send</button>
-            </form>
-        )
-    }
-}
+    return (
+        <div className={s.formWrapper}>
+            <legend className={s.legend}>
+                {loading
+                    ? <div style={style}> {error}</div>
+                    : <div>Send your message</div>
+                }
+            </legend>
+            <input className={s.formArea}
+                   placeholder={'Fill with your name'}
+                   value={name}
+                   onChange={e => setName(e.currentTarget.value)}/>
+            <input type="email"
+                   className={s.formArea}
+                   placeholder={'Your email address'}
+                   value={email}
+                   onChange={e => setEmail(e.currentTarget.value)}
+                   required/>
+            <textarea className={s.messageArea}
+                      placeholder={'Write your awesome message :)'}
+                      value={message}
+                      onChange={e => setMessage(e.currentTarget.value)}/>
+            <button onClick={setNewMessage}
+                    className={s.btnSubmit}
+                    disabled={disabled}>submit your message
+            </button>
+        </div>
+    )
+});
 
 export default ContactForm;
