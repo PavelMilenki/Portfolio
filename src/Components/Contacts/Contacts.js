@@ -61,18 +61,10 @@ export const Contacts = React.memo(() => {
                              setNewMessage={setNewMessage}
                              disabled={disabled}
                              error={error}/>
-                <div className={s.socialTitle}>Let's get social</div>
                 <div className={s.socialTitle}>
-                    Follow my online page on Facebook and profiles on, GitHub and Linkedin.
+                    Follow my profiles on GitHub and Linkedin.
                 </div>
                 <div className={s.socialBlock}>
-                    <AwesomeButtonSocial
-                        cssModule={AwesomeButtonStyles}
-                        type='facebook'
-                        href='https://www.facebook.com/pavel.milenki'
-                        target='_blank'>
-                        Facebook
-                    </AwesomeButtonSocial>
                     <AwesomeButtonSocial
                         cssModule={AwesomeButtonStyles}
                         type='linkedin'

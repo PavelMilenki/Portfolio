@@ -1,7 +1,5 @@
 import React from 'react';
 import s from './MainInfo.module.scss'
-import avatar from '../../Helpers/Images/Avatar.jpg'
-
 
 export const MainInfo = () => {
     return (
