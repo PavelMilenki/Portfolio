@@ -13,8 +13,6 @@ import nodejs from '../../Helpers/Images/nodeJs.png'
 import express from '../../Helpers/Images/express.png'
 import mongodb from '../../Helpers/Images/mongodbLogo.png'
 
-import Fade from 'react-reveal/Fade';
-
 export const Skills = () => {
 
     const skills = [
@@ -78,7 +76,7 @@ export const Skills = () => {
 
     return (
         <div className={s.skills} id={'skills'}>
-            <Fade bottom>
+
                 <div className={s.container}>
                   <h2>my stack</h2>
                     <div className={s.skillsWrapper}>
@@ -88,7 +86,7 @@ export const Skills = () => {
                         })}
                     </div>
                 </div>
-            </Fade>
+
         </div>
     );
 };

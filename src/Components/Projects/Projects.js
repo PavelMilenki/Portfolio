@@ -5,7 +5,7 @@ import network from "../../Helpers/Images/network.png"
 import todolist from "../../Helpers/Images/Todolist.jpg"
 import booksStore from "../../Helpers/Images/BooksStore.jpg"
 import counter from "../../Helpers/Images/counter.png"
-import Fade from "react-reveal/Fade";
+
 
 
 export const Projects = () => {
@@ -43,8 +43,7 @@ export const Projects = () => {
 
     return (
         <div className={s.projects} id={'works'}>
-            <Fade bottom>
-                <div className={s.container}>
+                      <div className={s.container}>
                     <h2>web developer portfolio</h2>
                     <p>From Web Components  to React.JS, Redux and Node.JS. Check out my latest web software development portfolio projects.</p>
                     <div className={s.projectsWrapper}>
@@ -58,8 +57,7 @@ export const Projects = () => {
                         })}
                     </div>
                 </div>
-            </Fade>
-        </div>
+                </div>
     );
 };
 
