@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f77d947d.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a024a946.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a024a946.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.f7d112e2.chunk.css",
+    "main.js": "/Portfolio/static/js/main.9f166c24.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.9f166c24.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.554048c6.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.554048c6.js.map",
     "static/css/2.1bfd5424.chunk.css": "/Portfolio/static/css/2.1bfd5424.chunk.css",
     "static/js/2.40fb5885.chunk.js": "/Portfolio/static/js/2.40fb5885.chunk.js",
     "static/js/2.40fb5885.chunk.js.map": "/Portfolio/static/js/2.40fb5885.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.b9219d5d84a46fcf443c25747d7cb629.js": "/Portfolio/precache-manifest.b9219d5d84a46fcf443c25747d7cb629.js",
+    "precache-manifest.3a56fb31752b4efda1d2991787518abc.js": "/Portfolio/precache-manifest.3a56fb31752b4efda1d2991787518abc.js",
     "service-worker.js": "/Portfolio/service-worker.js",
     "static/css/2.1bfd5424.chunk.css.map": "/Portfolio/static/css/2.1bfd5424.chunk.css.map",
-    "static/css/main.f77d947d.chunk.css.map": "/Portfolio/static/css/main.f77d947d.chunk.css.map",
+    "static/css/main.f7d112e2.chunk.css.map": "/Portfolio/static/css/main.f7d112e2.chunk.css.map",
     "static/media/BooksStore.jpg": "/Portfolio/static/media/BooksStore.abbffe32.jpg",
     "static/media/Todolist.jpg": "/Portfolio/static/media/Todolist.83c9470e.jpg",
-    "static/media/counter.png": "/Portfolio/static/media/counter.89ce1b89.png",
     "static/media/cssLogo.png": "/Portfolio/static/media/cssLogo.9fe7584b.png",
     "static/media/express.png": "/Portfolio/static/media/express.d638bd34.png",
     "static/media/gitLogo.png": "/Portfolio/static/media/gitLogo.8df07bef.png",
@@ -27,6 +26,7 @@
     "static/media/reactLogo.png": "/Portfolio/static/media/reactLogo.47ce6e77.png",
     "static/media/reduxLogo.png": "/Portfolio/static/media/reduxLogo.62cc7d7a.png",
     "static/media/sassLogo.png": "/Portfolio/static/media/sassLogo.74c36290.png",
+    "static/media/shortLink.jpg": "/Portfolio/static/media/shortLink.189682fc.jpg",
     "static/media/typescriptIcon.png": "/Portfolio/static/media/typescriptIcon.300c4c20.png"
   }
 }
