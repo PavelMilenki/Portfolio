@@ -15,7 +15,8 @@ export const Projects = () => {
             title: 'To do list',
             img: todolist,
             link: 'https://pavelmilenki.github.io/ToDoList/',
-            githubCode: 'https://github.com/PavelMilenki/ToDoList'
+            githubCode: 'https://github.com/PavelMilenki/ToDoList',
+            stack: 'React, Redux, React-router-dom, Redux-Thunk, Hooks, Axios, Dateformat, Ant Design, SASS'
         },
 
         {
@@ -23,21 +24,24 @@ export const Projects = () => {
             title: 'Books store',
             img: booksStore,
             link: 'https://pavelmilenki.github.io/BooksStore/',
-            githubCode: 'https://github.com/PavelMilenki/BooksStore'
+            githubCode: 'https://github.com/PavelMilenki/BooksStore',
+            stack: 'React, Redux, Redux-Thunk, Hooks, Axios, Lodash, Semantic-UI-React'
         },
         {
             id: 3,
             title: 'Social network',
             img: network,
             link: 'https://pavelmilenki.github.io/SocialNetwork/',
-            githubCode: 'https://github.com/PavelMilenki/SocialNetwork'
+            githubCode: 'https://github.com/PavelMilenki/SocialNetwork',
+            stack: 'React, Redux, Redux-Thunk, Hooks, Axios, React-Router-Dom, Redux-Form, Reselect'
         },
         {
             id: 4,
             title: 'Shortener link',
             img: shortLink,
             link: 'https://shortlinksapp.herokuapp.com/',
-            githubCode: 'https://github.com/PavelMilenki/shortener-link'
+            githubCode: 'https://github.com/PavelMilenki/shortener-link',
+            stack: 'React, React-router-dom, NodeJS, Express, Mongoose, MongoDB'
         }
     ];
 
@@ -54,7 +58,7 @@ export const Projects = () => {
                                         img={p.img}
                                         link={p.link}
                                         githubCode={p.githubCode}
-                                        description={p.description}/>
+                                        stack={p.stack}/>
                     })}
                 </div>
             </div>

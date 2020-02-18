@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const instance = axios.create({
-    baseURL: 'https://agile-caverns-78194.herokuapp.com/'
+    baseURL: 'https://contact-form-node.herokuapp.com/'
 
 });
 
