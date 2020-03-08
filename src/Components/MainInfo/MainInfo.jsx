@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './MainInfo.module.scss'
+import avatar from '../../Helpers/Images/Avatar.jpg'
 
 export const MainInfo = () => {
     return (
@@ -14,7 +15,9 @@ export const MainInfo = () => {
                         className={s.description}>Feel free to take a look at my latest projects on the web portfolio.</span>
                     <span className={s.descriptionLast}>Send an email p.milenkii@gmail.com and ~let's talk.</span>
                 </div>
-
+                <div className={s.photo}>
+                    <div className={s.img}><img src={avatar} alt="Avatar"/></div>
+                </div>
             </div>
         </div>
     );

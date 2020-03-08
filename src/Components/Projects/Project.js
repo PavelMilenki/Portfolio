@@ -13,7 +13,6 @@ export const Project = (props) => {
                 <div className={`${s.btnShow} ${s.code}`}>
                     <a href={props.githubCode} target='_blank' rel="noopener noreferrer">Code</a>
                 </div>
-
             </div>
             <div className={s.projectTitle}>{props.title}</div>
             <div className={s.description}>

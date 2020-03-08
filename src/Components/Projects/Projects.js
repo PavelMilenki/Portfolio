@@ -5,6 +5,7 @@ import network from "../../Helpers/Images/network.png"
 import todolist from "../../Helpers/Images/Todolist.jpg"
 import booksStore from "../../Helpers/Images/BooksStore.jpg"
 import shortLink from "../../Helpers/Images/shortLink.jpg"
+import layout from "../../Helpers/Images/layout.png"
 
 
 export const Projects = () => {
@@ -37,7 +38,15 @@ export const Projects = () => {
         },
         {
             id: 4,
-            title: 'Shortener link',
+            title: 'Layout',
+            img: layout,
+            link: 'https://pavelmilenki.github.io/surf-layout/',
+            githubCode: 'https://github.com/PavelMilenki/surf-layout',
+            stack: 'HTML5, SASS, React'
+        },
+        {
+            id: 5,
+            title: 'Short link',
             img: shortLink,
             link: 'https://shortlinksapp.herokuapp.com/',
             githubCode: 'https://github.com/PavelMilenki/shortener-link',

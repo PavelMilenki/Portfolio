@@ -28,7 +28,7 @@ export const App = () => {
                 <Particles className={s.particles}
                            params={particlesOpt}/>
                 <Header/>
-                               <MainInfo/>
+                <MainInfo/>
                 <Skills/>
                 <Projects/>
                 <Contacts/>
