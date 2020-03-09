@@ -4,7 +4,7 @@ import {Project} from "./Project";
 import network from "../../Helpers/Images/network.png"
 import todolist from "../../Helpers/Images/Todolist.jpg"
 import booksStore from "../../Helpers/Images/BooksStore.jpg"
-import shortLink from "../../Helpers/Images/shortLink.jpg"
+import shortLink from "../../Helpers/Images/shortLink.png"
 import layout from "../../Helpers/Images/layout.png"
 
 
@@ -48,7 +48,7 @@ export const Projects = () => {
             id: 5,
             title: 'Short link',
             img: shortLink,
-            link: 'https://shortlinksapp.herokuapp.com/',
+            link: 'https://shortinglinkapp.herokuapp.com/',
             githubCode: 'https://github.com/PavelMilenki/shortener-link',
             stack: 'React, React-router-dom, NodeJS, Express, Mongoose, MongoDB'
         }
